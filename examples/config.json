@@ -1,0 +1,62 @@
+{
+  "brand_name": "ACME COOLERS",
+  "logo": "",
+  "font_bold": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+  "fps": 30,
+  "colors": {
+    "dark": "#1B1035",
+    "light": "#5B2A86",
+    "lines": "#3A1F5C",
+    "text": "#FFFFFF",
+    "accent": "#FFC857"
+  },
+  "canvas": {
+    "size": [1920, 1316]
+  },
+  "panel": {
+    "native_size": [480, 329],
+    "export_scale": 2
+  },
+  "header": {
+    "size": [1664, 416],
+    "position": [0, 0]
+  },
+  "shelf": {
+    "size": [1920, 180],
+    "y_positions": [416, 596, 776, 956, 1136],
+    "seconds_per_slide": 7.5,
+    "transition_seconds": 0.5,
+    "slides": [
+      {
+        "parts": [
+          ["ACME", "text"],
+          ["  |  ", "accent"],
+          ["ALWAYS COLD", "accent"]
+        ]
+      },
+      {
+        "parts": [
+          ["Fresh picks daily.  ", "text"],
+          ["Grab one on the way out.", "accent"]
+        ],
+        "size": 62
+      },
+      {
+        "parts": [
+          ["OPEN", "text"],
+          ["  •  ", "accent"],
+          ["PICK", "text"],
+          ["  •  ", "accent"],
+          ["ENJOY", "text"]
+        ],
+        "size": 84
+      },
+      {
+        "parts": [
+          ["Smart coolers for every space", "text"]
+        ],
+        "size": 58
+      }
+    ]
+  }
+}
